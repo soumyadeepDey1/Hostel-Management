@@ -1,0 +1,14 @@
+{
+  "name": "hostel-management",
+  "version": "1.0.0",
+  "description": "It is a project that use in hostel to handle student data ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Hostel-data"
+  ],
+  "author": "Soumyadeep Dey",
+  "license": "ISC"
+}
