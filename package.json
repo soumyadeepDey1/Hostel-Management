@@ -1,14 +1,35 @@
 {
   "name": "hostel-management",
   "version": "1.0.0",
-  "description": "It is a project that use in hostel to handle student data ",
+  "description": "A project to manage hostel student data.",
+  "type": "module",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon dotenv/config --exprimental-json-modules src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "Hostel-data"
+    "hostel",
+    "management",
+    "student",
+    "data"
   ],
   "author": "Soumyadeep Dey",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cloudinary": "^2.6.1",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.15.1",
+    "mongoose-aggregate-paginate-v2": "^1.1.4",
+    "multer": "^2.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "prettier": "^3.5.3"
+  }
 }
